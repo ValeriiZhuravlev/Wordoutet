@@ -1,5 +1,13 @@
-@import 'assets/style_utils/libs';
 @import 'assets/style_utils/vars';
 @import 'assets/style_utils/normalize';
+@import 'assets/style_utils/libs';
 @import 'assets/fonts/font';
 
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Larsseit';
+    font-weight: 300;
+}
+
+@import 'assets/blocks/header.scss';

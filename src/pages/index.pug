@@ -1,0 +1,160 @@
+extends wordoutet
+
+block title
+    title wordoutet
+
+block content
+    .my-container
+        //- Header start
+        header.header
+            nav.nav
+                .menu-open
+                    ion-icon(name="menu")
+                .brand
+                    span
+                        a(href="index.html") wordoutlet
+                .cart
+                    ion-icon(name="cart")
+                .menu
+                    .menu-close
+                        ion-icon(name="close")
+                    ul
+                        li
+                            a(href="index.html") Home
+                        li
+                            a(href="shop.html") collection
+                        li
+                            a(href="product.html") Product
+                        li
+                            a(href="about.html") Our story
+                        li
+                            a(href="about.html") Contact
+                    .media-menu
+                        ul
+                            li
+                                ion-icon(name="logo-facebook")
+                            li
+                                ion-icon(name="logo-instagram")
+                            li
+                                ion-icon(name="logo-twitter")
+                            li
+                                ion-icon(name="logo-pinterest")
+        //- Header end
+        main.main
+            //- Hero-section start
+            section.hero-section
+                .container-fluid
+                    .row
+                        .col-lg-6.hero-left
+                            .tagline
+                                p 
+                                    | Useful tools to stimulate 
+                                    br
+                                    | planning, productivity and
+                                    br
+                                    | creativity.
+                            .shipping
+                                p Complimentary ground shipping on U. S. orders $30+
+                        .col-lg-6.hero-right
+                            .hero-image
+                                img(src="assets/img/hero.jpg" alt="book")
+            //- Hero-section end
+
+            //- product-section start
+            section.section.prod-list
+                .container-fluid
+                    .row.some-cards
+                        article.col-lg-3.prod
+                            a(href="product.html")
+                                p(id="price") USD $20.00
+                                img(src="assets/img/prod-04.jpg" alt="case green")
+                                p(id="prod-desc") Daily Planner 2017 in Green    
+                        article.col-lg-3.prod
+                            a(href="product.html")
+                                p(id="price") USD $30.00
+                                img(src="assets/img/prod-05.jpg" alt="case blue")
+                                p(id="prod-desc") Daily Planner 2017 in Green    
+                        article.col-lg-3.prod
+                            a(href="product.html")
+                                p(id="price") USD $10.00
+                                img(src="assets/img/prod-06.jpg" alt="case brown")
+                                p(id="prod-desc") Daily Planner 2019 in Brown   
+                        article.col-lg-3.prod
+                            a(href="product.html")
+                                p(id="price") USD $25.00
+                                img(src="assets/img/prod-07.jpg" alt="case dark brown")
+                                p(id="prod-desc") Daily Planner 2017 in Dark Brown   
+            //- product-section end
+
+            //- banner-section start
+            .row.prod-section
+                .col-lg-6.prod-img
+                    img(src="assets/img/single-prod.jpg")
+                .col-lg-4.prod-desc
+                    br
+                    p The way to get started is to quit talking and begin doing. Get started with our tools and boost your productivity.
+                    .link
+                        a(href="shop.html") 
+                            | shop now
+                            ion-icon(name="arrow-round-forward")
+            //- banner-section end
+
+            //- categories-section start
+            .container-fluid
+                .row.section.shop
+                    .col-lg-8
+                        p Do not wait; the time will never be right. Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.
+                        .link
+                            a(href="shop.html") 
+                                | learn more
+                                ion-icon(name="arrow-round-forward")
+                .container-fluid
+                    .row.some-cards
+                        .col-lg-3
+
+                        .col-lg-3.prod
+                            img(src="assets/img/prod-01.jpg" alt="pen and notebook")
+                            p#prod-desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit magnam, vel, laborum iusto sint ipsam et doloremque molestiae laboriosam illum cum! Doloremque asperiores doloribus labore eos, iste laudantium libero!
+                        .col-lg-3.prod
+                            img(src="assets/img/prod-02.jpg" alt="notebook")
+                            p#prod-desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit magnam, vel, laborum iusto sint ipsam et doloremque molestiae laboriosam illum cum! Doloremque asperiores doloribus labore eos, iste laudantium libero!
+                        .col-lg-3.prod
+                            img(src="assets/img/prod-03.jpg" alt="book")
+                            p#prod-desc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit magnam, vel, laborum iusto sint ipsam et doloremque molestiae laboriosam illum cum! Doloremque asperiores doloribus labore eos, iste laudantium libero!
+            //- categories-section end
+
+            br
+            br
+            br
+
+            //- footer-section end
+
+            .container-fluid.footer
+                .section.container
+                    footer.footer
+                        .row
+                            .col-lg-3.block
+                                p 
+                                    | Wordoutlet, 3581 Lunneta Street,
+                                    br
+                                    | Siesta Key, Florida. 20002,
+                                    br
+                                    | USA
+                            .col-lg-3.block
+                                p 
+                                    | FAQs
+                                    br
+                                    | Return Policy
+                                    br
+                                    | Shipping
+                            .col-lg-3.block
+                                .media
+                                    ul
+                                        li
+                                            ion-icon(name="logo-facebook")
+                                        li
+                                            ion-icon(name="logo-instagram")
+                                        li
+                                            ion-icon(name="logo-twitter")
+                                        li
+                                            ion-icon(name="logo-pinterest")
