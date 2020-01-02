@@ -1,0 +1,53 @@
+.hero-section {
+    height: 100vh;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.hero-left {
+    height: 100vh;
+    background: #f7f6f2;
+    z-index: -1;
+}
+
+.tagline {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 40px;
+    font-family: 'PlayfairDisplay';
+    font-size: 24px;
+}
+
+a {
+    color: gray;
+    font-family: 'Larsseit';
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.shipping {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.hero-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .hero-image {
+        display: none;
+    }
+}
+

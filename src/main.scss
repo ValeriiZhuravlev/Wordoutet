@@ -4,6 +4,8 @@
 @import 'assets/fonts/font';
 
 html, body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     font-family: 'Larsseit';
@@ -11,3 +13,6 @@ html, body {
 }
 
 @import 'assets/blocks/header.scss';
+@import 'assets/blocks/hero-section.scss';
+@import 'assets/blocks/section-prod.scss';
+@import 'assets/blocks/footer.scss';

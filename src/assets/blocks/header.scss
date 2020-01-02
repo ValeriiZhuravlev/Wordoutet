@@ -43,37 +43,58 @@
 
 .menu {
     position: fixed;
+    left: -30%;
     z-index: 2;
     width: 30%;
     height: 100vh;
     background: #fff;
     border-right: 1px solid rgba(0,0,0,0.1);
+
+    ul {
+        list-style: none;
+        position: relative;
+        top: 40%;
+        left: 10%;
+        transform: translate(0%, -50%);
+
+        li {
+            padding-bottom: 20px;
+
+            a {
+                font-size: 12px;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &-close {
+        position: relative;
+        line-height: 60px;
+        float: right;
+        margin-right: 20px;
+    }
 }
 
-.menu-close {
+.media-menu {
     position: relative;
-    line-height: 60px;
-    float: right;
-    margin-right: 20px;
+    top: 50%;
 }
 
-.media-menu ul {
-    margin: 0;
-    padding: 0;
-}
-
-.menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    top: 40%;
-    left: 10%;
-    transform: translate(0%, -50%);
-}
+.media-menu ul li {
+    display: inline-block;
+    padding-right: 10px;
+} 
 
 @media screen and (max-width: 900px) {
     .menu {
         width: 100%;
+        left: -100%;
+    }
+
+    .hero-image {
+        display: none;
     }
 }
