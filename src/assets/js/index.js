@@ -1,8 +1,12 @@
 // Main js file
 
-// const calendar = require('../../blocks/calendar/calendar.js');
+const scroll = require('./scripts/scroll.js');
+const toggleMenu = require('./scripts/ToggleMenu.js');
 
-// $(document).ready(() => {
 
-// });
+$(document).ready(() => {
+    new WOW().init();
+    scroll;
+    toggleMenu;
+});
 

@@ -1,8 +1,12 @@
 // JS
+import '../node_modules/gsap/dist/gsap.min.js'
+import '../node_modules/wowjs/dist/wow.min.js'
 import './assets/js/index.js'
 
 // SCSS
 import './main.scss'
 
-// CSS (example)
-// import './assets/css/main.css'
+ // CSS
+
+ import '../node_modules/wowjs/node_modules/animate.css/source/_base.css'
+ import '../node_modules/wowjs/node_modules/animate.css/source/fading_entrances/fadeInUp.css'
