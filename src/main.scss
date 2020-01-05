@@ -8,7 +8,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Larsseit';
+    font-family: "Larsseit";
     font-weight: 300;
 }
 
@@ -16,3 +16,7 @@ html, body {
 @import 'assets/blocks/hero-section.scss';
 @import 'assets/blocks/section-prod.scss';
 @import 'assets/blocks/footer.scss';
+@import 'assets/blocks/shop-page.scss';
+@import 'assets/blocks/product-page.scss';
+@import 'assets/blocks/hero.scss';
+@import 'assets/blocks/contact.scss';

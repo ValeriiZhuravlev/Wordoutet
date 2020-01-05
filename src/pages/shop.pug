@@ -1,0 +1,20 @@
+extends wordoutet
+
+include ./blocks/product-list
+include ./blocks/banner
+include ./blocks/categories
+
+block title
+    title shop
+
+block content
+    .whitespaces
+    .collection
+        p#heading Best sellers
+        +product-list
+    +banner
+    .collection
+        p#heading Latest collection
+        +product-list
+    +categories
+    .whitespaces

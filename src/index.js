@@ -1,6 +1,6 @@
 // JS
+import 'jquery'
 import '../node_modules/gsap/dist/gsap.min.js'
-import '../node_modules/wowjs/dist/wow.min.js'
 import './assets/js/index.js'
 
 // SCSS

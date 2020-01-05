@@ -9,21 +9,22 @@
 .prod {
     margin-top: 20px;
     &:hover a {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
-    &-sec {
+    &-section {
        width: 101.2%; 
        border-top: 1px solid rgba(0,0,0,0.1);
        border-bottom: 1px solid rgba(0,0,0,0.1);
 
        p {
            font-family: 'PlayfairDisplay';
-           font-size: 24px;
+           font-size: 18px;
+           font-weight: 700;
        }
     }
 
-    &-list #prod-desc{
+    &-list #prod-desc {
         font-family: 'Larsseit';
         color: grey;
     }
@@ -32,6 +33,7 @@
 #prod-desc {
     margin-top: 16px;
     font-size: 14px;
+    font-weight: 800;
 }
 
 #price {
@@ -44,7 +46,7 @@
 
 
 @media screen and (max-width: 900px) {
-    .prod-sec {
+    .prod-section {
         padding-left: 30px;
         width: 100%;
         border: none;
